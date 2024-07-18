@@ -1,0 +1,23 @@
+{
+  "minecraft:color_grading_settings": {
+    "description": {
+      "identifier": "judo:default_color_grading"
+    },
+    "color_grading": {
+      "midtones": {
+        "saturation": [1.05, 1.05, 1.05]
+      },
+      "highlights": {
+        "saturation": [1.05, 1.05, 1.05]
+      },
+      "shadows": {
+        "shadowsMax": 0.1,
+        "gain": [1.2, 1.2, 1.2],
+        "gamma": [2.5, 2.5, 2.5]
+      }
+    },
+    "tone_mapping": {
+      "operator": "aces"
+    }
+  }
+}
