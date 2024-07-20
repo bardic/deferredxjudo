@@ -5,15 +5,23 @@
     },
     "color_grading": {
       "midtones": {
-        "saturation": [1.05, 1.05, 1.05]
+        "gain": [1.5, 1.5, 1.5],
+        "saturation": [1.5, 1.5, 1.5],
+        "gamma": [1.5, 1.5, 1.5],
+        "offset": [0.5, 0.5, 0.5]
       },
       "highlights": {
-        "saturation": [1.05, 1.05, 1.05]
+        "gain": [1.5, 1.5, 1.5],
+        "saturation": [1.5, 1.5, 1.5],
+        "gamma": [1.5, 1.5, 1.5],
+        "offset": [0.5, 0.5, 0.5]
       },
       "shadows": {
-        "shadowsMax": 0.1,
-        "gain": [1.2, 1.2, 1.2],
-        "gamma": [2.5, 2.5, 2.5]
+        "shadowsMax": 0.5,
+        "gain": [1.5, 1.5, 1.5],
+        "saturation": [0.75, 0.75, 0.75],
+        "gamma": [1.5, 1.5, 1.5],
+        "offset": [0.5, 0.5, 0.5]
       }
     },
     "tone_mapping": {
