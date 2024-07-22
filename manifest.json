@@ -1,17 +1,17 @@
 {
   "format_version": 2,
   "header": {
-    "name": "deferred x judo v2",
+    "name": "deferred x judo v3",
     "description": "extended deferred",
     "uuid": "da664990-54d2-4bdb-99ae-7b4b135dc223",
-    "version": [0, 0, 2],
+    "version": [0, 0, 3],
     "min_engine_version": [1, 16, 200]
   },
   "modules": [
     {
       "type": "resources",
       "uuid": "9bfb0aba-fa15-43d0-b209-f8880ca1fd63",
-      "version": [0, 0, 2]
+      "version": [0, 0, 3]
     }
   ],
   "subpacks": [
@@ -26,13 +26,13 @@
       "memory_tier": 1
     },
     {
-      "folder_name": "jd_emissive",
-      "name": "Emissive ores",
+      "folder_name": "jd_pbr",
+      "name": "Plain PBR ores",
       "memory_tier": 1
     },
     {
-      "folder_name": "jd_pbr",
-      "name": "Plain PBR ores",
+      "folder_name": "jd_emissive",
+      "name": "Emissive ores",
       "memory_tier": 1
     }
   ],

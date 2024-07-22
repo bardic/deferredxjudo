@@ -4,28 +4,32 @@
       "identifier": "judo:default_color_grading"
     },
     "color_grading": {
-      "midtones": {
-        "gain": [1.5, 1.5, 1.5],
-        "saturation": [1.5, 1.5, 1.5],
-        "gamma": [1.5, 1.5, 1.5],
-        "offset": [0.5, 0.5, 0.5]
-      },
       "highlights": {
-        "gain": [1.5, 1.5, 1.5],
-        "saturation": [1.5, 1.5, 1.5],
-        "gamma": [1.5, 1.5, 1.5],
-        "offset": [0.5, 0.5, 0.5]
+        "highlightsMin": 4.0,
+        "contrast": [1.0, 1.0, 1.0],
+        "gain": [1.1, 1.1, 1.1],
+        "gamma": [2.0, 2.0, 2.0],
+        "offset": [0.5, 0.5, 0.5],
+        "saturation": [1.0, 1.0, 1.0]
+      },
+      "midtones": {
+        "contrast": [1.25, 1.25, 1.25],
+        "gain": [1.1, 1.1, 1.1],
+        "gamma": [2.0, 2.0, 2.0],
+        "offset": [0.5, 0.5, 0.5],
+        "saturation": [1.1, 1.1, 1.1]
       },
       "shadows": {
-        "shadowsMax": 0.5,
-        "gain": [1.5, 1.5, 1.5],
-        "saturation": [0.75, 0.75, 0.75],
-        "gamma": [1.5, 1.5, 1.5],
-        "offset": [0.5, 0.5, 0.5]
+        "shadowsMax": 0.01,
+        "contrast": [1.2, 1.2, 1.2],
+        "gain": [0.9, 0.9, 0.9],
+        "gamma": [2.2, 2.2, 2.2],
+        "offset": [-0.01, -0.01, -0.01],
+        "saturation": [1.1, 1.1, 1.1]
       }
     },
     "tone_mapping": {
-      "operator": "aces"
+      "operator": "hable"
     }
   }
 }
