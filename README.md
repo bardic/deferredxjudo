@@ -1,7 +1,6 @@
-# deferred x judo
-
-![](/imgs/logo.png)
-
+<p align="center">
+ <img src="/imgs/logo.png">
+</p>
 **THIS PACK REQUIRES MINECRAFT PREVIEW OR BETTER RENDER DRAGON**
 
 - Improved sky colors
