@@ -2,7 +2,7 @@
   "biomes": {
     "default": {
       "water_surface_color": "#00B581",
-      "water_surface_transparency": 0.95,
+      "water_surface_transparency": 0.5,
       "fog_identifier": "judo:fog_default"
     }
   }
